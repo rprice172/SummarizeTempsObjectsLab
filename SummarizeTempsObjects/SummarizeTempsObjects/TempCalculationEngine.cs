@@ -24,7 +24,7 @@ namespace SummarizeTempsObjects
 
             int averageTemps = sumOfTemps / _temperatures.Count;
 
-            return averageTemps; // <-- Replace this with the actual average
+            return averageTemps; 
         }
 
         public int TempsAboveThreshold(int threshold)
@@ -39,8 +39,7 @@ namespace SummarizeTempsObjects
                 }
             }
 
-            // add logic to calculate temps above the threshold
-            return tempsCount; // <-- Replace this with the number
+            return tempsCount; 
         }
 
         public int TempsBelowThreshold(int threshold)
@@ -51,8 +50,7 @@ namespace SummarizeTempsObjects
                 {
                     tempsCount += 1;
                 }
-            // add logic to calculate and return temps below the threshold
-            return tempsCount; // <-- Replace this with the number
+            return tempsCount; 
         }
 
         public int TempsAtThreshold(int threshold)
@@ -64,14 +62,12 @@ namespace SummarizeTempsObjects
                     tempsCount += 1;
                 }
 
-            // add logic to calculate and return temps at the threshold
-            return tempsCount; // <-- Replace this with the number
+            return tempsCount; 
         }
 
         public int NumberOfTemperatures()
         {
-            // add logic to return the number of temparature readings
-            return _temperatures.Count; // <-- Replace this with the number
+            return _temperatures.Count; 
         }
     }
 }
